@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
 	  }
 	  data <- x$get()
 	  m <- solve(data, ...)
-  ## solve is used to compute the inverse of the input argument
+  	## solve is used to compute the inverse of the input argument
 	  x$setmatrix(m)
   m
 }
